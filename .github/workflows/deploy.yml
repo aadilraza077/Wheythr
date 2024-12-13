@@ -1,4 +1,4 @@
-name: Deploy React Vite to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -19,4 +19,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages # The branch to deploy to
+          folder: ./
         
